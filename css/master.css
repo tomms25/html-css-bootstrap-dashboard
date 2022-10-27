@@ -148,10 +148,78 @@ a{
     font-size: 30px;
 }
 
+.students{
+    margin-right: 15%;
+}
+
 .students h3, h4{
     color: white;
     margin-bottom: 15px;
 }
+
+
+
+/* Tables */
+.tables-screen{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first-column-tables{
+    width: 60%;
+    max-width: 100%;
+}
+
+.second-column-tables{
+    width: 40%;
+    max-width: 100%;
+    align-self: flex-start;
+}
+
+.next-classroom{
+    /* debug */
+    height: 400px;
+    max-width: 100%;
+    border: solid 2px gray;
+    margin: 20px;
+}
+
+.faq{
+    /* debug */
+    height: 200px;
+    max-width: 100%;
+    border: solid 2px gray;
+    margin: 20px;
+}
+
+.todo{
+    height: 200px;
+    max-width: 100%;
+    border: solid 2px gray;
+    margin: 20px 10px;
+}
+
+.graphics{
+    height: 400px;
+    max-width: 100%;
+    border: solid 2px gray;
+    margin: 10px;
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Footer */
