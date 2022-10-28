@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+   font-family: Helvetica, sans-serif;
 }
 
 
@@ -194,24 +194,99 @@ a{
     align-items: center;
 }
 
+/* First column tables */
+
 .first-column-tables{
     width: 60%;
     max-width: 100%;
 }
 
+/* first table */
+
+.next-classroom{
+    /* debug */
+    height: 400px;
+    max-width: 100%;
+    border: solid 1px lightgray;
+    margin: 20px;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 15px;
+}
+
+.title h2{
+    color: black;
+    font-weight: lighter;
+}
+
+.right-title span{
+    font-size: 20px;
+    border: 1px solid blue;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+
+/* table content */
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.class{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.class span{
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.class i{
+    color: white;
+    padding: 5px;
+}
+
+.icon-container{
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #f0624d;
+}
+
+.specifications span{
+    margin-right: 20px;
+    font-size: 15px;
+}
+
+#button{
+    background-color: #198754;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+}
+
+
+
+/* Second colum tables */
 .second-column-tables{
     width: 40%;
     max-width: 100%;
     align-self: flex-start;
 }
 
-.next-classroom{
-    /* debug */
-    height: 400px;
-    max-width: 100%;
-    border: solid 2px gray;
-    margin: 20px;
-}
 
 .faq{
     /* debug */
