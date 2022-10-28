@@ -45,6 +45,8 @@ a{
 
 #logo2{
     display: none;
+    max-width: 100%;
+    background-color: white;
 }
 
 .header-tools{
@@ -454,8 +456,10 @@ a{
 
 /* Media command */
 
-@media screen and (max-width: 1182px) {
-
+@media screen and (max-width: 1192px) {
+    .after{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 991px){
@@ -490,22 +494,15 @@ a{
 
     .button-b{
         margin-bottom: 20px;
-        display: inline-block;
     }
 
-    .after{
+    .shades{
         display: none;
     }
 
     .plus{
-        display: inline-block;
+       display: initial;
     }
-
-
-
-
-
-
 
 
     /* Tables */
@@ -524,6 +521,10 @@ a{
         justify-content: space-between;
         align-items: center;
         background-color: #f8f9fa;
+    }
+
+    .after{
+        display: unset;
     }
 
 
@@ -549,7 +550,13 @@ a{
 @media screen and (max-width: 853px){
 
 
+    .students{
+        margin-top: 20px;
+    }
 
+    .students h4{
+        margin: 0;
+    }
 
 }
 
@@ -561,10 +568,17 @@ a{
     }
 
     #logo2{
-        width: calc((100%/ 5));
+        display: unset;
+        max-width: 100%;
         background-color: white;
-        padding: 5px;
     }
+
+    .after{
+        display: none;
+    }
+
+
+
 }
 
 
@@ -572,7 +586,13 @@ a{
 
 /* Smartphone */
 
-@media screen and (max-width: 590px){
+@media screen and (max-width: 505px){
+
+    .roi{
+        display: none;
+    }
+
+
 
 }
     
