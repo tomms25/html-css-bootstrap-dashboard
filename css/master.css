@@ -569,9 +569,8 @@ a{
 
     #logo2{
         display: unset;
-        max-width: 100%;
-        background-color: white;
     }
+
 
     .after{
         display: none;
