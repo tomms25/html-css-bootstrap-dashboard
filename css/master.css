@@ -43,6 +43,10 @@ a{
     padding: 5px;
 }
 
+#logo2{
+    display: none;
+}
+
 .header-tools{
     width: calc((100%/ 5));
     background-color: white;
@@ -163,6 +167,7 @@ a{
 
 .boolean-button span {
     margin-left: 10px;
+    font-size: 15px;
 }
 
 #button-b{
@@ -171,10 +176,12 @@ a{
     background-color: #165bba;
     border-radius: 20px;
     margin-right: 10px;
+    font-size: 15px;
 }
 
 #button-list{
     margin-top: 15px;
+    font-size: 15px;
 }
 
 #button-list i{
@@ -433,11 +440,22 @@ a{
 
 /* Media command */
 
-@media screen and (max-width: 1230px) {
+@media screen and (max-width: 1182px) {
     
 }
 
 @media screen and (max-width: 991px){
+
+    .sidebar-column{
+        width: 50px;
+        height: 100%;
+        background-color: #051e34;
+        display: grid;
+    }
+
+    .side-menu span{
+        display: none;
+    }
 
 
 
@@ -446,7 +464,15 @@ a{
 
 
 @media screen and (max-width: 732px){
+    .logo{
+        display: none;
+    }
 
+    #logo2{
+        width: calc((100%/ 5));
+        background-color: white;
+        padding: 5px;
+    }
 }
 
 
